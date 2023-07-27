@@ -54,10 +54,10 @@ EXAMPLE CODE:
 		    SOUT 1,14  -- Output the string
 		    HALT 0     -- End the program
     
-	CALCULATE SUM OF 10 AND 5:
+	CALCULATE SUM OF 3 AND 6:
 		<main>:
 			STR 1,6 -- Store value 1 at adress 5
-			STR 3,1  	-- Store value 4 at address 1
+			STR 3,1  	-- Store value 3 at address 1
 			STR 6,2  	-- Store value 6 at address 2
 			ADD 1,2,3	-- Add values at addresses 1 and 2 and store result at address 3
 			STR 30,4 -- Store ascii "0" at adress 4
